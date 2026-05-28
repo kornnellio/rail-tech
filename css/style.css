@@ -712,21 +712,22 @@ section {
 .section-tag {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--blue-light);
+  font-size: 0.9rem;
+  color: #80d0ff;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  margin-bottom: var(--space-xs);
-  padding: 4px 8px;
-  border-left: 2px solid var(--blue);
-  background: rgba(42, 90, 138, 0.1);
+  letter-spacing: 0.15em;
+  margin-bottom: var(--space-sm);
+  padding: 8px 14px;
+  border-left: 3px solid #60b8f0;
+  background: rgba(60, 160, 240, 0.15);
+  font-weight: 500;
 }
 
 .section-tag::before {
   content: '>';
-  color: var(--blue);
+  color: #60b8f0;
   font-weight: bold;
 }
 
