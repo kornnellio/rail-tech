@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://rail-tech.ro/sitemap.xml
+
+# Preferred host
+Host: https://rail-tech.ro
